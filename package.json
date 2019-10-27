@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-wexin",
+  "version": "0.0.1",
+  "description": "An ESLint plugin for WeChat's Mini Program",
+  "main": "lib/index.js",
+  "scripts": {},
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslint-config",
+    "wexin",
+    "wechat",
+    "rules"
+  ],
+  "author": "Gkxie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkxie/eslint-plugin-weixin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkxie/eslint-plugin-weixin/issues"
+  },
+  "homepage": "https://github.com/gkxie/eslint-plugin-weixin#readme",
+  "peerDependencies": {
+    "eslint": "^5.0.0 || ^6.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
