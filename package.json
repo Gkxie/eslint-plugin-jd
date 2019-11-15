@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-wexin",
+  "name": "eslint-plugin-jd",
   "version": "0.0.1",
-  "description": "An ESLint plugin for WeChat's Mini Program",
+  "description": "An ESLint plugin for JD's Mini Program",
   "main": "lib/index.js",
   "scripts": {},
   "files": [
@@ -11,7 +11,7 @@
     "eslint",
     "eslint-plugin",
     "eslint-config",
-    "wexin",
+    "jd",
     "wechat",
     "rules"
   ],
@@ -19,12 +19,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkxie/eslint-plugin-weixin.git"
+    "url": "git+https://github.com/gkxie/eslint-plugin-jd.git"
   },
   "bugs": {
-    "url": "https://github.com/gkxie/eslint-plugin-weixin/issues"
+    "url": "https://github.com/gkxie/eslint-plugin-jd/issues"
   },
-  "homepage": "https://github.com/gkxie/eslint-plugin-weixin#readme",
+  "homepage": "https://github.com/gkxie/eslint-plugin-jd#readme",
   "peerDependencies": {
     "eslint": "^5.0.0 || ^6.0.0"
   },
